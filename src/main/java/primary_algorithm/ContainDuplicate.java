@@ -40,11 +40,6 @@ public class ContainDuplicate {
     public static void main(String[] args) {
         ContainDuplicate containDuplicate = new ContainDuplicate();
         int[] nums = {33, 444, 77,8, 9, 44};
-//        System.out.println(soluction.removeDuplicates(nums));
-//        System.out.println(soluction.removeDuplicates(nums));
-//        System.out.println(Arrays.toString(soluction.moveArrayElement1(nums,2)));
-//        System.out.println(soluction.containsDuplicate1(nums));
-//        System.out.println((soluction.quickSort(nums,0,nums.length-1)));
         System.out.println(containDuplicate.containsDuplicateMy1(nums));
 
     }
