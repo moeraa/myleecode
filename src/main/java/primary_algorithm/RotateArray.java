@@ -61,6 +61,6 @@ public class RotateArray {
         int [] nums = {1,2,3,4,5,6,7};
         //{5,6,7,1,2,3,4} 6-3
         // 0.1.2.3.4.5.6
-        System.out.println(Arrays.toString( RotateArray.rotate(nums,3)));
+        System.out.println(Arrays.toString( RotateArray.rotate2(nums,3)));
     }
 }
